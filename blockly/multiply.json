@@ -1,0 +1,53 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "setup",
+        "id": "5mQ^pB8:reEUqfm9%viv",
+        "x": 245,
+        "y": 119,
+        "inputs": {
+          "loop": {
+            "block": {
+              "type": "serial_print",
+              "id": "Kun=F|_GuSs4q1vLmf#O",
+              "inputs": {
+                "CONTENT": {
+                  "block": {
+                    "type": "varmath",
+                    "id": "@dl:9=xz+2ymiq[sb0]F",
+                    "fields": {
+                      "OPERATOR": "MULTIPLY"
+                    },
+                    "inputs": {
+                      "LEFT": {
+                        "shadow": {
+                          "type": "math_number",
+                          "id": "^?OrRf;K2b|@imH6asy_",
+                          "fields": {
+                            "NUM": 0
+                          }
+                        }
+                      },
+                      "RIGHT": {
+                        "shadow": {
+                          "type": "math_number",
+                          "id": "gcL5Jp;Z{)Z0nz,|:#wN",
+                          "fields": {
+                            "NUM": 0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "selectedKit": "snowflake"
+}

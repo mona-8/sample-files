@@ -1,0 +1,53 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "setup",
+        "id": "UDECqvSS=(D0iXeF~B^a",
+        "x": 332,
+        "y": 150,
+        "inputs": {
+          "loop": {
+            "block": {
+              "type": "serial_print",
+              "id": "Chf@Z6;~BGDYQM3o8`b,",
+              "inputs": {
+                "CONTENT": {
+                  "block": {
+                    "type": "varmath",
+                    "id": "Pewo]H%Sg0b7a2VP2MX[",
+                    "fields": {
+                      "OPERATOR": "SUBTRACT"
+                    },
+                    "inputs": {
+                      "LEFT": {
+                        "shadow": {
+                          "type": "math_number",
+                          "id": "Y|=o:1YkTNc?5n}YuEFc",
+                          "fields": {
+                            "NUM": 0
+                          }
+                        }
+                      },
+                      "RIGHT": {
+                        "shadow": {
+                          "type": "math_number",
+                          "id": "=!RdCdQg/P=,a+8V2=}$",
+                          "fields": {
+                            "NUM": 0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "selectedKit": "snowflake"
+}

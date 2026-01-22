@@ -1,0 +1,25 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "setup",
+        "id": "}1Wp|+Xj-Pn^WQu7Dx1l",
+        "x": 105,
+        "y": 98,
+        "inputs": {
+          "loop": {
+            "block": {
+              "type": "led_sequence",
+              "id": "J1NY99M%M=dS^zJqEeuc",
+              "fields": {
+                "value": "1"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "selectedKit": "snowflake"
+}

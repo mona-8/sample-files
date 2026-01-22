@@ -1,0 +1,33 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "setup",
+        "id": "zjB.7y`]]V,[(.v0RL+0",
+        "x": 204,
+        "y": 170,
+        "inputs": {
+          "loop": {
+            "block": {
+              "type": "serial_print",
+              "id": "B:D3wDta.m|bqdAqpFb9",
+              "inputs": {
+                "CONTENT": {
+                  "block": {
+                    "type": "text",
+                    "id": "j@@Hhy/9!P.*.Kg|H@PI",
+                    "fields": {
+                      "TEXT": ""
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "selectedKit": "snowflake"
+}
