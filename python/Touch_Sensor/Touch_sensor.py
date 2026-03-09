@@ -1,7 +1,7 @@
 from machine import Pin
 import Subo, time
 
-TOUCH = Subo.IO2
+TOUCH = Subo.IO1
 touch = Pin(TOUCH, Pin.IN)
 
 while True:

@@ -1,7 +1,7 @@
 from machine import Pin, ADC
 import Subo, time
 
-GAS = Subo.IO1
+GAS = Subo.IO5
 gas = ADC(Pin(GAS))
 gas.atten(ADC.ATTN_11DB)
 

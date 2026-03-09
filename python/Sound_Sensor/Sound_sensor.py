@@ -1,7 +1,7 @@
 from machine import Pin
 import Subo, time
 
-SOUND = Subo.IO3
+SOUND = Subo.IO1
 sound = Pin(SOUND, Pin.IN)
 
 while True:
