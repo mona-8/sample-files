@@ -5,10 +5,10 @@ import Subo
 
 # Initialize Subo board (if required)
 
-# Create DHT sensor object on Subo.IO2
-sensor = dht.DHT11(Pin(Subo.IO2))
+# Create DHT sensor object on Subo.IO1
+sensor = dht.DHT11(Pin(Subo.IO1))
 # For DHT22 use:
-# sensor = dht.DHT22(Pin(Subo.IO2))
+# sensor = dht.DHT22(Pin(Subo.IO1))
 
 print("DHT Sensor Test Started...")
 

@@ -1,12 +1,12 @@
-import time
+import utime
 from machine import I2C, Pin
 import Subo  # type: ignore
 from lcd import LCD1602I2C
 
 # Initialize I2C using Subo IO pins
-# IO2 -> SDA
-# IO1 -> SCL
-i2c = I2C(0, sda=Pin(Subo.IO2), scl=Pin(Subo.IO1), freq=400000)
+# IO1 -> SDA
+# IO2 -> SCL
+i2c = I2C(0, sda=Pin(Subo.IO1), scl=Pin(Subo.IO2), freq=400000)
 
 # Initialize LCD
 lcd = LCD1602I2C(i2c, i2c_addr=0x27)
